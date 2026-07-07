@@ -4,14 +4,29 @@
 
 ### AI-Powered Cryptocurrency Fraud Detection & Analytics Platform
 
-Detect suspicious cryptocurrency transactions using **Machine Learning**, visualize fraud patterns, and generate intelligent analytics through an end-to-end AI dashboard.
+Detect suspicious cryptocurrency transactions using **Machine Learning**, visualize fraud patterns, and generate intelligent fraud analytics through an end-to-end AI dashboard.
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi)
+<p>
+
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi)
+
 ![Python](https://img.shields.io/badge/Python-3.13-yellow?logo=python)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-38BDF8?logo=tailwindcss)
-![License](https://img.shields.io/badge/License-MIT-green)
+
+![Scikit-Learn](https://img.shields.io/badge/ML-ScikitLearn-orange?logo=scikitlearn)
+
+![TailwindCSS](https://img.shields.io/badge/UI-TailwindCSS-38BDF8?logo=tailwindcss)
+
+![License](https://img.shields.io/badge/License-MIT-success)
+
+</p>
+
+---
+
+### 🚀 End-to-End Machine Learning Project
+
+**React • FastAPI • Machine Learning • Isolation Forest • PCA • K-Means • Interactive Dashboard**
 
 </div>
 
@@ -19,69 +34,140 @@ Detect suspicious cryptocurrency transactions using **Machine Learning**, visual
 
 # 📖 Project Overview
 
-CryptoGuard AI is an **end-to-end Machine Learning web application** developed to detect fraudulent cryptocurrency transactions.
+CryptoGuard AI is a full-stack Machine Learning application developed to detect fraudulent cryptocurrency transactions through anomaly detection and intelligent analytics.
 
-The application allows users to upload transaction datasets in CSV format. The backend processes the data using Machine Learning algorithms and returns fraud analytics, suspicious transaction reports, clustering information, and interactive visualizations displayed through a modern React dashboard.
+Users simply upload a cryptocurrency transaction dataset (CSV), and the application automatically performs:
 
-The project demonstrates the complete lifecycle of an AI application—from data preprocessing and model inference to frontend visualization and analytics.
+- Data preprocessing
+- Feature scaling
+- PCA dimensionality reduction
+- Fraud detection using Isolation Forest
+- Behaviour clustering using K-Means
+- Interactive visualization
+- AI-generated analysis summary
+
+The platform combines **Machine Learning**, **FastAPI**, and **React** to provide an intuitive fraud analytics dashboard.
 
 ---
 
-# ✨ Features
+# ✨ Key Features
 
-## 🚀 AI-Powered Fraud Detection
+## 🤖 AI Fraud Detection
 
 - Detect suspicious cryptocurrency transactions
 - Isolation Forest based anomaly detection
-- PCA dimensionality reduction
-- K-Means clustering
-- Intelligent fraud analytics
+- Fraud score generation
+- Intelligent AI Insights
 
 ---
 
 ## 📊 Interactive Dashboard
 
-- Analytics Cards
-- AI Insights
-- Fraud Distribution
+- Real-time Analytics Cards
+- Fraud Distribution Pie Chart
 - PCA Scatter Plot
-- Fraud Histogram
-- Cluster Distribution
+- Fraud Score Histogram
+- Cluster Distribution Chart
 - Suspicious Transactions Table
-- Analysis Summary
+- AI Analysis Summary
 
 ---
 
-## 📂 Dataset Support
+## 📂 Dataset Management
 
 - CSV Upload
 - Dataset Preview
-- Real-time Analysis
-- Instant Results
+- Real-time Processing
+- Instant Fraud Analytics
 
 ---
 
-## 🧠 Machine Learning Pipeline
+## 📈 Advanced Visualizations
 
-- Data Preprocessing
-- StandardScaler
-- PCA
-- Isolation Forest
-- K-Means
-- Fraud Scoring
-- Analytics Generation
+- Fraud Distribution
+- PCA Visualization
+- Cluster Analysis
+- Fraud Histogram
+- Analytics Cards
 
 ---
 
-# 🛠 Tech Stack
+# 🧠 Machine Learning Pipeline
+
+```text
+CSV Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Feature Selection
+      │
+      ▼
+StandardScaler
+      │
+      ▼
+Principal Component Analysis (PCA)
+      │
+      ▼
+Isolation Forest
+      │
+      ▼
+K-Means Clustering
+      │
+      ▼
+Fraud Analytics Generation
+      │
+      ▼
+Interactive React Dashboard
+```
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                        User
+                         │
+                         ▼
+                 React Frontend
+                         │
+                         ▼
+                 CSV File Upload
+                         │
+                         ▼
+                FastAPI Backend API
+                         │
+       ┌─────────────────┼──────────────────┐
+       ▼                 ▼                  ▼
+StandardScaler        PCA Model      Isolation Forest
+       │                 │                  │
+       └─────────────────┼──────────────────┘
+                         ▼
+                 K-Means Clustering
+                         │
+                         ▼
+             Analytics & JSON Response
+                         │
+                         ▼
+               Interactive Dashboard
+```
+
+---
+
+# 🛠️ Technology Stack
 
 ## Frontend
 
 - React.js
 - Tailwind CSS
 - Axios
+- React Router
 - Recharts
 - React Icons
+- React Hot Toast
+
+---
 
 ## Backend
 
@@ -90,10 +176,52 @@ The project demonstrates the complete lifecycle of an AI application—from data
 - Pandas
 - NumPy
 - Joblib
+- Uvicorn
+
+---
 
 ## Machine Learning
 
 - Scikit-Learn
 - Isolation Forest
 - PCA
+- StandardScaler
 - K-Means Clustering
+
+---
+
+# 📸 Application Preview
+
+## 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 🔍 Fraud Analysis
+
+### Analytics Overview
+
+![Analysis 1](screenshots/analysis1.png)
+
+### Interactive Charts
+
+![Analysis 2](screenshots/analysis2.png)
+
+### PCA & Histogram
+
+![Analysis 3](screenshots/analysis3.png)
+
+### Cluster Analytics
+
+![Analysis 4](screenshots/analysis4.png)
+
+### Suspicious Transactions & Summary
+
+![Analysis 5](screenshots/analysis5.png)
